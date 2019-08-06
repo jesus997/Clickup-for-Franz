@@ -1,17 +1,14 @@
 {
-  "id": "slack",
-  "name": "Slack",
-  "version": "1.0.9",
-  "description": "Slack",
+  "id": "clickup",
+  "name": "Clickup",
+  "version": "1.0.0",
+  "description": "ClickUp's #1 rated platform is making the world more productive through tasks, docs, conversations, timelines, spreadsheets, and mind maps - all in one place.",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "Jesús Magallón <jesus@magallon.dev>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://{teamId}.slack.com",
+    "serviceURL": "https://app.clickup.com",
     "hasNotificationSound": true,
-    "hasDirectMessages": true,
-    "hasIndirectMessages": true,
-    "hasTeamId": true,
-    "urlInputSuffix": ".slack.com"
+    "hasDirectMessages": true
   }
 }
